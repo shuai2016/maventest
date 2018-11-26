@@ -10,6 +10,10 @@
 
     <name>Hello</name>
 
+    <properties>
+        <spring.version>4.3.13.RELEASE</spring.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -21,7 +25,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>4.3.13.RELEASE</version>
+            <version>${spring.version}</version>
         </dependency>
 
     </dependencies>
