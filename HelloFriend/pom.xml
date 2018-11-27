@@ -10,11 +10,20 @@
 
     <name>HelloFriend</name>
 
+    <!--子工程声明父工程-->
+    <parent>
+        <groupId>com.shuai.maven</groupId>
+        <artifactId>maventest</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+
+        <!--以当前文件为基准的父工程pom.xml文件的相对路径-->
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
             <scope>test</scope>
         </dependency>
 
